@@ -13,6 +13,8 @@ app.use("/posts",postRoute)
 
 
 
+
+
 app.listen(process.env.port, async()=>{
     try{
         await connection
