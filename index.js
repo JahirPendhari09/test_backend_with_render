@@ -11,7 +11,7 @@ app.use(express.json())
 app.use("/users",userRoute)
 app.use("/posts",postRoute)
 
-app.use("/",(req,res)=>{
+app.get("/",(req,res)=>{
     res.send("Home Page")
 })
 
