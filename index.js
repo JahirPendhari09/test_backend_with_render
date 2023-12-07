@@ -16,7 +16,7 @@ app.get("/",(req,res)=>{
 })
 
 
-app.listen(process.env.port, async()=>{
+app.listen(5000, async()=>{
     try{
         await connection
         console.log("Mongodb atlas is connected ")
