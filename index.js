@@ -11,9 +11,9 @@ app.use(express.json())
 app.use("/users",userRoute)
 app.use("/posts",postRoute)
 
-// app.get("/",(req,res)=>{
-//     res.send("Home Page")
-// })
+app.get("/",(req,res)=>{
+    res.send("Home Page")
+})
 
 
 app.listen(process.env.port, async()=>{
